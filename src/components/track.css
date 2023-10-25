@@ -1,0 +1,52 @@
+
+
+.track-component {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+   
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(208, 10, 235, 0.911);
+    margin-left: 380px;
+    margin-top: 20px;
+  }
+  
+  .track-component h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .map-container {
+    margin-top: 20px;
+  }
+  
