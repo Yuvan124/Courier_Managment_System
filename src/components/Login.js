@@ -14,7 +14,7 @@ export const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/login', {
+      const response = await axios.post('https://cb2-cq47.onrender.com/login', {
         email: email,
         pass: pass,
       });
