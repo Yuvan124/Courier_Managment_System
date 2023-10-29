@@ -16,7 +16,7 @@ export const Register = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/register', {
+      const response = await axios.post('https://cb2-cq47.onrender.com/register', {
         name: name,
         email: email,
         pass: pass,
